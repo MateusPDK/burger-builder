@@ -18,8 +18,7 @@
     cursor: pointer;
     outline: none;
     border-radius: 12px;
-    transition: background .5s;
-    transition: opacity .5s;
+    transition: all .5s;
 }
 
 .BuildControl button:disabled {

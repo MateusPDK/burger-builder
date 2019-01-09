@@ -7,3 +7,45 @@
     margin: auto;
     padding: 15px 0px;
 }
+
+.Price {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.Price font {
+    font-size: 1.5rem;
+}
+
+.OrderButton {
+    margin-top: 25px;
+    display: block;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s;
+    color: white;
+    background-color: #ff9400;
+}
+
+.OrderButton:disabled {
+    transition: all .5s;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.OrderButton:disabled:hover {
+    background-color: #ff9400;
+}
+
+.OrderButton:hover {
+    transition: all .5s;
+    background-color: #00db16;
+}
